@@ -1,4 +1,4 @@
-import { IconSvg } from "../../IconSvg/IconSvg"
+// import { IconSvg } from "../../IconSvg/IconSvg"
 
 import cn from "classnames"
 import classes from "./Social.module.scss"
@@ -21,9 +21,9 @@ export const Social = () => {
             rel="noreferrer"
             className={classes.link}
           >
-            <IconSvg id={icon.id} className={cn(classes.icon, {
+            {/* <IconSvg id={icon.id} className={cn(classes.icon, {
               [classes.facebook]: icon.classes
-            })} />
+            })} /> */}
           </a>
         )}
       </div>
