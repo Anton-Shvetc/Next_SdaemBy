@@ -1,6 +1,6 @@
 import { FC } from 'react'
-import { Link } from 'react-router-dom'
-import { path } from '../../../constants/pages'
+import Link from 'next/link'
+import { path } from '@/utils/constants/pages'
 
 import classes from "./TypeProducts.module.scss"
 const typeProducts = [
@@ -15,7 +15,7 @@ export const TypeProducts: FC = () => {
       {typeProducts.map(item =>
         <Link
           key={item.id}
-          to={item.path}
+          href={item.path}
           className={classes.link}>
           {item.name}
         </Link>

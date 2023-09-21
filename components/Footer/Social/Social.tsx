@@ -1,6 +1,6 @@
 // import { IconSvg } from "../../IconSvg/IconSvg"
 
-import cn from "classnames"
+// import cn from "classnames"
 import classes from "./Social.module.scss"
 
 const arr = [
